@@ -1,0 +1,218 @@
+html{
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+   background-image: url("img/escudo.png");
+   opacity: 90%;
+   visibility: inherit;
+   margin: 0px 0px 0px 0px;
+   
+}
+
+#titulo{
+    width: 0 auto;
+    background-color: rgb(2, 2, 53);
+    padding: 10px 100px 5px 100px;
+    text-align: center;
+    height:120px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(235, 45, 45);
+   
+    text-shadow: slateblue 2px 2px 20px;
+    font-size: 6rem;
+    
+}
+
+#imagen{
+    float: right;
+    height: 100px;
+}
+
+#imagen2{
+    float: left;
+    height: 100px;
+}
+
+#subtitulo{
+    background-color: rgb(2, 2, 53);
+    width: 0 auto;
+    height: 40px;
+    color:whitesmoke;
+    margin-top: 0.1px;
+    text-align: center;
+    margin-bottom: 0px;
+   
+}
+
+.indice {
+    background-color: rgb(5, 5, 105);
+    width: 0 auto;
+    height: 40px  20px;
+    color:whitesmoke;
+    margin-top: 0.0px;
+    text-align: left;
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+#subindice{
+    background-color: rgb(5, 5, 105);
+    width: 0 auto;
+    height: 12px  0px;
+    color:whitesmoke;
+    margin-top: 0px;
+    padding-left: 60px;
+    text-align: left;
+    font-size: 20px;
+    list-style-type: disc; 
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.cuerpo{
+    background-color: rgb(5, 5, 105);
+    color:whitesmoke;
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#imagen3{
+    position: sticky;
+    margin-left: 150px;
+    border: 2rem;
+    padding-top: 30px;
+    }
+
+#tithistoria {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    padding-left: 60px;
+    cursor:pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: skyblue;
+}
+
+
+a:visited{
+    color:rgb(218, 216, 216);
+}
+
+a:hover{
+    color:yellow;
+}
+
+a:active{
+    color: red;
+}
+ 
+#historia{
+    font-size: 20px;
+    margin-inline-start: 60px;
+    margin-inline-end: 60px;
+    text-decoration: solid;
+    text-align: justify;
+    margin-bottom: 0px;
+    text-indent: 20px;
+}
+
+#pregunta{
+    font-size: 35px;
+    color: rgb(243, 82, 117);
+    margin-inline-start: 60px;
+}
+
+#titcampeonato {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    padding-left: 60px;
+    cursor:pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: skyblue;
+    padding-bottom: 30px;
+}
+
+#imagen4 {
+        position: sticky;
+        margin-left: 150px;
+        border: white 7px solid;
+        width: 1200px;
+        height: 800px;
+        visibility: unset;
+        opacity: initial;
+}
+
+table {
+    width: 90%;
+    border-collapse:collapse ;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 10px;
+}   
+
+th, td {
+    border:rgb(218, 216, 216) 4px solid;
+    text-align: justify;
+    padding-left: 10px;
+}
+
+th {
+    font-size: 2em;
+    color: salmon;
+}
+
+hr{
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(5, 5, 105);
+}
+
+#imagenPipi {
+        position: sticky;
+        margin-left: 60px;
+        border: white 7px solid;
+        width: 800px;
+        height: 400px;
+        visibility: unset;
+        opacity: initial;
+        padding: 0px;
+        float: left;
+}
+
+#titjugadores {
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    padding-left: 60px;
+    cursor:pointer;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: skyblue;
+}
+
+#jugador1{
+    font-size: 20px;
+    margin-inline-start: 40px;
+    margin-inline-end: 60px;
+    text-decoration: solid;
+    text-align: justify;
+    margin-bottom: 0px;
+    text-align-last: auto;
+   text-indent: 20px;
+}
+
+#pipi{
+    margin-left: 60px;
+    padding-top: 30px;
+}
